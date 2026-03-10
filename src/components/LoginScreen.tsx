@@ -48,9 +48,9 @@ export default function LoginScreen() {
         setError("Matrícula não encontrada. Verifique e tente novamente.");
         localStorage.removeItem("userMatricula");
       }
-    } catch (err) {
+    } catch (err: any) {
       console.error(err);
-      setError("Erro de conexão. Verifique sua internet.");
+      setError(`Erro de conexão: ${err.message || "Verifique sua internet."}`);
     } finally {
       setLoading(false);
     }
