@@ -1,0 +1,21 @@
+{
+  "name": "e-Escolar",
+  "short_name": "e-Escolar",
+  "description": "Sistema Integrado de Informações",
+  "start_url": "/login-cecy/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/JFKTr9sc/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/JFKTr9sc/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
