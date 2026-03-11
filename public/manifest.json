@@ -1,6 +1,6 @@
 {
-  "name": "e-Escolar",
-  "short_name": "e-Escolar",
+  "name": "e-Escolar CECY",
+  "short_name": "e-Escolar CECY",
   "description": "Sistema Integrado de Informações",
   "start_url": "/login-cecy/",
   "display": "standalone",
