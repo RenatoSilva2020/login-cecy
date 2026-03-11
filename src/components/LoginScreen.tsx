@@ -21,11 +21,18 @@ export default function LoginScreen() {
     setUser(null);
 
     try {
-      const url = `https://docs.google.com/spreadsheets/d/1d_TEVVrTVp6_MJaHYNzyLUez0KO5_ajS5XeiiyOdd5I/export?format=csv&t=${Date.now()}`;
-      const response = await fetch(url);
+      // Usar a API do Google Visualization Query (tq) que tem melhor suporte a CORS
+      const url = `https://docs.google.com/spreadsheets/d/1d_TEVVrTVp6_MJaHYNzyLUez0KO5_ajS5XeiiyOdd5I/gviz/tq?tqx=out:csv&t=${Date.now()}`;
+      
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Accept': 'text/csv'
+        }
+      });
       
       if (!response.ok) {
-        throw new Error("Falha ao acessar a planilha de dados");
+        throw new Error(`Falha ao acessar a planilha: ${response.status} ${response.statusText}`);
       }
       
       const csvText = await response.text();
