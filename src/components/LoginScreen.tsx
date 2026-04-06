@@ -18,7 +18,7 @@ export default function LoginScreen() {
 
     try {
       // Direct client-side fetch to Google Sheets CSV
-      const sheetId = "16KaGdCfiXZhG9Szuw7fQ1lCIFvaOz3j--QcbvLYIODA";
+      const sheetId = "1d_TEVVrTVp6_MJaHYNzyLUez0KO5_ajS5XeiiyOdd5I";
       const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv&t=${Date.now()}`;
 
       const response = await fetch(csvUrl);
