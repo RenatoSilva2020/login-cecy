@@ -87,7 +87,7 @@ export default function LoginScreen() {
         <div className="p-8 pb-0 text-center">
           <div className="mb-6">
             <img
-              src="https://i.ibb.co/JFKTr9sc/logo.png"
+              src="https://i.ibb.co/ZzWybmSF/logo-cecy.png"
               alt="Logo"
               className="w-24 h-24 mx-auto object-contain"
               referrerPolicy="no-referrer"
