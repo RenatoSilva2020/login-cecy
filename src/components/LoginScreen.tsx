@@ -122,7 +122,7 @@ export default function LoginScreen() {
                 </p>
                 
                 <button
-                  onClick={() => window.location.href = 'https://professorrsilva.my.canva.site/eemp26'}
+                  onClick={() => window.location.href = 'https://professorrsilva.my.canva.site/sis-cecy'}
                   className="w-full relative group overflow-hidden bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-medium py-4 px-4 rounded-2xl transition-all duration-300 shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-2 mb-4"
                 >
                   <span>Acessar Sistema</span>
