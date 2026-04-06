@@ -11,7 +11,7 @@ export default function InstalledScreen() {
       >
         <div className="mb-6">
           <img
-            src="https://i.ibb.co/ZzWybmSF/logo-cecy.png"
+            src="https://i.ibb.co/ZzWybmSF/logo-cecy.pngg"
             alt="Logo"
             className="w-24 h-24 mx-auto object-contain"
           />
