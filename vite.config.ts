@@ -14,10 +14,10 @@ export default defineConfig(({mode}) => {
       tailwindcss(),
       VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+        includeAssets: ['favicon.ico', 'https://i.ibb.co/B5GRhz0B/logo-cecy.png', 'mask-icon.svg'],
         manifest: {
-          name: 'e-Escolar',
-          short_name: 'e-Escolar',
+          name: 'SIS CECYr',
+          short_name: 'SIS CECY',
           description: 'Sistema de autenticação para acesso ao portal do aluno',
           theme_color: '#ffffff',
           background_color: '#ffffff',
@@ -26,12 +26,12 @@ export default defineConfig(({mode}) => {
           start_url: './',
           icons: [
             {
-              src: 'logo.png',
+              src: 'https://i.ibb.co/B5GRhz0B/logo-cecy.png',
               sizes: '192x192',
               type: 'image/png'
             },
             {
-              src: 'logo.png',
+              src: 'https://i.ibb.co/B5GRhz0B/logo-cecy.png',
               sizes: '512x512',
               type: 'image/png'
             }
