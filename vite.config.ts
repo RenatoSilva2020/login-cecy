@@ -16,7 +16,7 @@ export default defineConfig(({mode}) => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'https://i.ibb.co/B5GRhz0B/logo-cecy.png', 'mask-icon.svg'],
         manifest: {
-          name: 'SIS CECYr',
+          name: 'SIS CECY',
           short_name: 'SIS CECY',
           description: 'Sistema de autenticação para acesso ao portal do aluno',
           theme_color: '#ffffff',
